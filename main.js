@@ -37,36 +37,35 @@ console.log(keyPressed);
 	{
 		new_image('rr1.png');
 		console.log("r");
-		block_y =100;
 		// upload red ranger
 	}
 	if(keyPressed == '71')
 	{
-		new_image('gr.png');
-		console.log("g");
 		block_x = 200;
+		new_image('gr.png');
+		console.log("g");		
 		// upload green ranger
 	}
 	
 	if(keyPressed == '89')
-	{	
-		new_image('yr.png');
-		console.log(y);
+	{
 		block_x = 350;
+		new_image('yr.png');
+		console.log("y");
 		// upload yellow ranger
 	}
 	if(keyPressed == '80')
-	{	
-		new_image('pr.png');
-		console.log(p);
+	{
 		block_x = 600;
+		new_image('pr.png');
+		console.log("p");
 		// upload pink ranger
 	}
 	if(keyPressed == '66')
 	{
-		new_image('br.png');
-		console.log(b);
 		block_x = 700;
+		new_image('br.png');
+		console.log("b");
 	// upload blue ranger
 	}
 	

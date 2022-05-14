@@ -37,7 +37,7 @@ console.log(keyPressed);
 	{
 		new_image('rr1.png');
 		console.log("r");
-		block_y =150;
+		block_y =100;
 		// upload red ranger
 	}
 	if(keyPressed == '71')
